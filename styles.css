@@ -121,4 +121,5 @@ h1 {
   justify-content: center;
   padding-top: 15px;
   justify-content: space-between;
+  gap: 10px;
 }
