@@ -1,0 +1,124 @@
+* {padding: 0; margin: 0;}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1c2331;
+}
+
+.logo {
+  margin: 15px 0 10px .45em;
+}
+    .logo a {
+      color: rgb(28, 24, 22);
+    }
+
+    .logo, .navigation {
+        list-style: none;
+    }
+
+    .logo a, .navigation a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+.navigation  {
+  display: flex;
+}
+
+.navigation a {
+  display: block;
+  padding: 2em 1.5em 2em 1.5em;
+  color: white;
+}
+
+.navigation a:hover {
+    background: #333946;
+}
+
+.nabidka-zajezdu {
+  float: left;
+  width: 29vw;
+  height: 75vh;
+  background-color: #e5e5e5;
+  border: #b7b7b7 1px solid;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+
+.vybrane-zajezdy {
+  float: left;
+  width: 49vw;
+  height: 75vh;
+  background-color: #f5f5dc;
+  border: #c4c4b0 1px solid;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+
+.rezervacni-formular {
+  float: left;
+  width: 19.2vw;
+  height: 75vh;
+  background-color: #e5e5e5;
+  border: #b7b7b7 1px solid;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.zajezd-blok {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.nazev-zajezd-list {
+  color: #1c2331;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: sans-serif
+}
+
+.popis-zajezd-list {
+  color:#444d5c;
+  font-family: sans-serif
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #374785;
+  height: 12.1vh;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.socials > img {
+  height: 30px;
+}
+
+.odkazy1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  justify-content: space-between;
+}
